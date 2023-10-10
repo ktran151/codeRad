@@ -56,3 +56,9 @@ img {
   padding-left: 15px;
   padding-right: auto;
 }
+
+
+
+@media (min-width: 1200px) {
+  .container { max-width: 1140px; }
+}
