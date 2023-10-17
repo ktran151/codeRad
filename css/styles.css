@@ -73,4 +73,29 @@
 .hero-header {
   color: var(--white);
 }
+.why-me {
+  padding: var(--size-150) 0;
+}
+.why-me-wrapper {
+  display: flex;
+  align-items: center;
+}
 
+.why-me-wrapper div {
+  flex: 1;
+}
+
+.block-text {
+  padding-right: var(--size-50);
+}
+
+.block-text span {
+  color: var(--font-color-dark);
+  font-weight: 200;
+}
+
+.block-text h2 {
+  font-family: "Hinds", sans-serif;
+  font-weight: 600;
+  color: var(--font-color-dark);
+}
