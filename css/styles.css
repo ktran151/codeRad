@@ -291,10 +291,61 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #9ccdf3 0%, #94aafd 1
   line-height: 1.6
 }
 
+footer.bg-footer {  background-color: var(--footer); }
+footer .footer-bottom{ background-color: var(--footer-base); }
 
 footer .footer-top {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: var(--size-50);
-  padding: var(--size-100);
+  padding: var(--size-100) 0;
+}
+
+footer .footer-col { Justify-self: center; }
+
+.footer-top h5 {
+  color: var(--white);
+  font-weight: 500;
+  margin-bottom: var(--size-16);
+}
+
+.contact-info li {
+  color: var(--white);
+  margin-bottom: var(--size-10);
+}
+
+.contact-info li i { width: var(--size-30); }
+
+.social-icons ul li {
+  display: inline-block;
+  margin-right: var(--size-16);
+}
+
+.social-icons ul li a {
+  color: var(--white);
+  font-size: var(--size-16);
+}
+
+.services-wrapper p { color: #858497;}
+
+.recent-posts {
+  display: flex;
+  margin-bottom: var(--size-16);
+}
+
+.recent-posts .post-image-wrapper {
+  width: var(--size-100);
+  margin-right: var(--size-10)
+}
+
+.post-inner h6 { margin: 0;}
+
+.post-inner h6 a {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.post-inner span {
+  color: var(--font-color-light);
+  font-size: var(--size-10);
 }
